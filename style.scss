@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  overflow: none;
 }
 
 .container {
@@ -26,7 +27,7 @@ body {
       height: 80vh;
       width: 100%;
       border-radius: 10px;
-      box-shadow: 3px 3px rgba(89, 89, 89, 0.1);
+      box-shadow: 3px 3px rgba(137, 137, 137, 0.1);
     }
   }
   //header section
@@ -44,6 +45,20 @@ body {
       h1 {
         font-size: 30px;
         padding: 5px;
+      }
+    }
+    .selection {
+      input {
+        padding: 10px;
+      }
+      button {
+        border: none;
+        background: #2d4159;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
       }
     }
   }
@@ -77,6 +92,10 @@ body {
           padding: 10px;
           color: white;
         }
+        span {
+          font-size: 18px;
+          color: white;
+        }
         #text {
           color: rgb(227, 227, 227);
         }
@@ -99,6 +118,10 @@ body {
           padding: 10px;
           color: white;
         }
+        span {
+          font-size: 18px;
+          color: white;
+        }
         #text {
           color: rgb(227, 227, 227);
         }
@@ -119,6 +142,10 @@ body {
         #deaths_number {
           font-size: 30px;
           padding: 10px;
+          color: white;
+        }
+        span {
+          font-size: 18px;
           color: white;
         }
         #text {

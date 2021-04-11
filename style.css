@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow: none;
+}
+
 .container {
   background-color: #2d4159;
   height: 50vh;
@@ -34,8 +38,8 @@ html {
   height: 80vh;
   width: 100%;
   border-radius: 10px;
-  -webkit-box-shadow: 3px 3px rgba(89, 89, 89, 0.1);
-          box-shadow: 3px 3px rgba(89, 89, 89, 0.1);
+  -webkit-box-shadow: 3px 3px rgba(137, 137, 137, 0.1);
+          box-shadow: 3px 3px rgba(137, 137, 137, 0.1);
 }
 
 .container .header {
@@ -67,6 +71,20 @@ html {
 .container .header .logo h1 {
   font-size: 30px;
   padding: 5px;
+}
+
+.container .header .selection input {
+  padding: 10px;
+}
+
+.container .header .selection button {
+  border: none;
+  background: #2d4159;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
 }
 
 .container .worldwide {
@@ -117,6 +135,11 @@ html {
   color: white;
 }
 
+.container .worldwide .worldwide_stats .confirmed span {
+  font-size: 18px;
+  color: white;
+}
+
 .container .worldwide .worldwide_stats .confirmed #text {
   color: #e3e3e3;
 }
@@ -152,6 +175,11 @@ html {
   color: white;
 }
 
+.container .worldwide .worldwide_stats .recovered span {
+  font-size: 18px;
+  color: white;
+}
+
 .container .worldwide .worldwide_stats .recovered #text {
   color: #e3e3e3;
 }
@@ -184,6 +212,11 @@ html {
 .container .worldwide .worldwide_stats .deaths #deaths_number {
   font-size: 30px;
   padding: 10px;
+  color: white;
+}
+
+.container .worldwide .worldwide_stats .deaths span {
+  font-size: 18px;
   color: white;
 }
 

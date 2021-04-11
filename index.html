@@ -23,6 +23,7 @@
 
                     <div class="selection">
                         <input placeholder="Enter a country" value="">
+                        <button id='submit' type="submit">Submit</button>
                     </div>
                 </section>
 
@@ -34,19 +35,19 @@
                     <div class="worldwide_stats">
                         <div class="confirmed">
                             <i class="fa fa-user" aria-hidden="true"></i>
-                            <p id="confirmed_number">12345678</p>
+                            <p id="confirmed_number"></p><span></span>
                             <p id="text">Confirmed cases</p>
                         </div>
 
                         <div class="recovered">
                             <i class="fa fa-heartbeat" aria-hidden="true"></i>
-                            <p id="recovered_number">3279</p>
+                            <p id="recovered_number"></p><span></span>
                             <p id="text">Recovered</p>
                         </div>
 
                         <div class="deaths">
                             <i class="fa fa-medkit" aria-hidden="true"></i>
-                            <p id="deaths_number">237649</p>
+                            <p id="deaths_number"></p><span></span>
                             <p id="text">Deaths confirmed</p>
                         </div>
                     </div>
@@ -54,24 +55,24 @@
 
                 <!--Country stats-->
                 <section class="country">
-                    <h2><span>Country</span> Overview: </h2>
+                    <h2><span id="countryName">Country</span> Overview: <span id="active"></span> </h2>
 
                     <div class="country_stats">
                         <div class="confirmed2">
                             <i class="fa fa-user" aria-hidden="true"></i>
-                            <p id="confirmed_number2">12345678</p>
+                            <p id="confirmed_number2"></p>
                             <p id="text">Confirmed cases</p>
                         </div>
 
                         <div class="recovered2">
                             <i class="fa fa-heartbeat" aria-hidden="true"></i>
-                            <p id="recovered_number2">3279</p>
+                            <p id="recovered_number2"></p>
                             <p id="text">Recovered</p>
                         </div>
 
                         <div class="deaths2">
                             <i class="fa fa-medkit" aria-hidden="true"></i>
-                            <p id="deaths_number2">237649</p>
+                            <p id="deaths_number2"></p>
                             <p id="text">Deaths confirmed</p>
                         </div>
                     </div>
