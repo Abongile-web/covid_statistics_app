@@ -8,4 +8,308 @@
 html {
   scroll-behavior: smooth;
 }
+
+.container {
+  background-color: #2d4159;
+  height: 50vh;
+}
+
+.container .container2 {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .container2 .container3 {
+  background-color: white;
+  height: 80vh;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px rgba(89, 89, 89, 0.1);
+          box-shadow: 3px 3px rgba(89, 89, 89, 0.1);
+}
+
+.container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 20px 0 20px;
+}
+
+.container .header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .header .logo img {
+  width: 10%;
+}
+
+.container .header .logo h1 {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.container .worldwide {
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid #878787;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.container .worldwide .worldwide_stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px 0;
+}
+
+.container .worldwide .worldwide_stats .confirmed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #78244c;
+  width: 20%;
+  min-height: 20vh;
+  border-radius: 10px;
+}
+
+.container .worldwide .worldwide_stats .confirmed i {
+  color: white;
+  font-size: 60px;
+}
+
+.container .worldwide .worldwide_stats .confirmed #confirmed_number {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+}
+
+.container .worldwide .worldwide_stats .confirmed #text {
+  color: #e3e3e3;
+}
+
+.container .worldwide .worldwide_stats .recovered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0677a1;
+  width: 20%;
+  min-height: 20vh;
+  border-radius: 10px;
+}
+
+.container .worldwide .worldwide_stats .recovered i {
+  color: white;
+  font-size: 60px;
+}
+
+.container .worldwide .worldwide_stats .recovered #recovered_number {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+}
+
+.container .worldwide .worldwide_stats .recovered #text {
+  color: #e3e3e3;
+}
+
+.container .worldwide .worldwide_stats .deaths {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #59253a;
+  width: 20%;
+  min-height: 20vh;
+  border-radius: 10px;
+}
+
+.container .worldwide .worldwide_stats .deaths i {
+  color: white;
+  font-size: 60px;
+}
+
+.container .worldwide .worldwide_stats .deaths #deaths_number {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+}
+
+.container .worldwide .worldwide_stats .deaths #text {
+  color: #e3e3e3;
+}
+
+.container .country {
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid #878787;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.container .country .country_stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px 0;
+}
+
+.container .country .country_stats .confirmed2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2d4159;
+  width: 20%;
+  min-height: 20vh;
+  border-radius: 10px;
+}
+
+.container .country .country_stats .confirmed2 i {
+  color: white;
+  font-size: 60px;
+}
+
+.container .country .country_stats .confirmed2 #confirmed_number2 {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+}
+
+.container .country .country_stats .confirmed2 #text {
+  color: #e3e3e3;
+}
+
+.container .country .country_stats .recovered2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #895061;
+  width: 20%;
+  min-height: 20vh;
+  border-radius: 10px;
+}
+
+.container .country .country_stats .recovered2 i {
+  color: white;
+  font-size: 60px;
+}
+
+.container .country .country_stats .recovered2 #recovered_number2 {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+}
+
+.container .country .country_stats .recovered2 #text {
+  color: #e3e3e3;
+}
+
+.container .country .country_stats .deaths2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #78244c;
+  width: 20%;
+  min-height: 20vh;
+  border-radius: 10px;
+}
+
+.container .country .country_stats .deaths2 i {
+  color: white;
+  font-size: 60px;
+}
+
+.container .country .country_stats .deaths2 #deaths_number2 {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+}
+
+.container .country .country_stats .deaths2 #text {
+  color: #e3e3e3;
+}
 /*# sourceMappingURL=style.css.map */
