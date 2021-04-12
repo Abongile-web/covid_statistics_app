@@ -4,6 +4,9 @@ window.onload = () => {
 
 fetch(api)
   .then(response => response.json())
+  .catch(function(error) {
+      console.log(error);
+  })
   .then(data => {
     console.log(data);
     //get data that is going to be used
@@ -41,6 +44,10 @@ submit.addEventListener('click', () => {
     .then(response2 => response2.json())
     .then(data2 => {
         console.log(data2);
+
+        if (data2.length == 0) {
+            alert('Country not found.');
+        }
 
         let length = data2.length;
         let index = length -1;
