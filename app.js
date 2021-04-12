@@ -45,10 +45,9 @@ submit.addEventListener('click', () => {
     .then(data2 => {
         console.log(data2);
 
-        if (data2.length == 0) {
+        if (data2.length == 0 || input == "") {
             alert('Country not found.');
-        }
-
+        } else {
         let length = data2.length;
         let index = length -1;
 
@@ -69,6 +68,11 @@ submit.addEventListener('click', () => {
         document.querySelector('#countryName').append(' ' + province);
         document.querySelector('#active').textContent = active + ' active cases';
 
+        //scroll to country section when button is clicked
+        let countryOverview = document.querySelector('#countryName');
 
+        countryOverview.scrollIntoView();
+
+        }
     })
 })
